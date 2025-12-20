@@ -136,18 +136,18 @@ while True:
 
     if pizza == "quit":
         break
-
+    
     pizza_toppings.append(pizza)
     
     for topping in pizza_toppings:
         
         print(f"Adding {topping} to your pizza.")
     
-    subtotal = len(pizza_toppings)    
+        subtotal = len(pizza_toppings)    
     
-    base = 10.00
+        base = 10.00
     
-    pizza_total = base + subtotal * 2.50    
+        pizza_total = base + subtotal * 2.50    
 
 print(pizza_toppings, "Here is your total: ", pizza_total)   
 
@@ -161,30 +161,46 @@ print(pizza_toppings, "Here is your total: ", pizza_total)
 # EXERCISE 9: CINEMAX TICKETS
 # Instructions:
 
+free = 0
+child = 10.00
+adult = 15.00
+
+total_cost = 0.0
+
 # Ask for the age of each person in a family who wants to buy a movie ticket.
+while True:
+    movie_goer = input("Please provide the age of the ticket buyer: (type 'done' when finished adding)")
+    
+    if (movie_goer) == "done":
+        break
+    
 # Calculate the total cost based on the following rules:
 # Free for people under 3.
-# $10 for people aged 3 to 12.
-# $15 for anyone over 12.
+    age = int(movie_goer)
+    
+    if age < 3:
+        price = free
+        print(f"Age {age}: ticket price is ${price:.2f}")
+        
+# $10 for people aged 3 to 12.            
+    elif age >= 3 and age <= 12:
+        price = child
+        print(f"Age {age}: ticket price is ${price:.2f}")
+        
+# $15 for anyone over 12.  
+    else:
+        price = adult 
+        print(f"Age {age}: ticket price is ${price:.2f}")
+    
+    total_cost += price
+    
+
+print(f"\nTotal price for all moviegoers: ${total_cost:.2f}")
+ 
+
+
+
 # Print the total ticket cost.
-
-# user_age = []
-
-# while True:
-#     user_age = int(input ("Please enter the age of the person: "))
-    
-#     user_total.append(user_age)
-    
-#     if user_age < 3:
-#         cost = 0
-#     if user_age >= 3:
-#         cost = 10
-#     if user_age <= 12:
-#         cost = 0    
-#     if user_age < 12:
-#         cost = 15
-    
-#     total_ticket_cost = sum(user_total) 
 
 
 # Bonus:
