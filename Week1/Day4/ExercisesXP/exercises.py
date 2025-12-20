@@ -197,9 +197,6 @@ while True:
 
 print(f"\nTotal price for all moviegoers: ${total_cost:.2f}")
  
-
-
-
 # Print the total ticket cost.
 
 
