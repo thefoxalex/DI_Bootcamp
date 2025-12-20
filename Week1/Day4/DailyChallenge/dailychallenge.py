@@ -1,3 +1,19 @@
+# Challenge 1: Multiples of a Number
+
+# Instructions:
+# 1. Ask the user for two inputs:
+
+# A number (integer).
+# A length (integer).
+# 2. Create a program that generates a list of multiples of the given number.
+# 3. The list should stop when it reaches the length specified by the user.
+
+input_number = int(input("Please provide a number: "))
+input_length = int(input("Please provide a length: "))
+
+for num in range (1, input_length):
+    print(input_length * num )
+
 # Challenge 2: Remove Consecutive Duplicate Letters
 
 # Instructions:
@@ -15,17 +31,15 @@
 # Output: 
 # "poem"
 
-word = input("Type a string with consecutive duplicate letters (e.g., 'ppooeemm' for 'poem'):")
+user_word = input("Please type a word with consecutive duplicate letters (e.g., 'pppoooeeemm' for 'poem'): ")
+
 new_word = ""
 
-for letter in range(len(word)):
-    if word[letter] == word[letter + 1]:
-        continue
-    else:
-        new_word += word[letter]
+for letter in user_word:
+    if new_word == "" or letter != new_word[len(new_word) - 1]:
+        new_word = new_word + letter
+
 print(new_word)
-
-
 
 # Example 2:
 
