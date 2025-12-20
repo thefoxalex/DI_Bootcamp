@@ -1,0 +1,11 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/Day2/ExercisesXP/exercisesxp.py
+suggestions for improvement:
+- In Exercise 1, to print "Hello world" four times on four separate lines, use `print('Hello world\n' * 4)`
+- In Exercise 3, `"3" > 3` will produce an error because you can't directly compare a string to an integer. Consider adding an explicit comment to explain this. For example: `# >>> "3" > 3 TypeError: '>' not supported between instances of 'str' and 'int'`
+- In Exercise 5, using f-strings would be a more readable and modern way to concatenate the string: `info = f'Hi, my name is {name} and I am {age} and my shoe size is {shoe_size}.'`
+Brief justification:
+- correctness: The code accurately addresses all the exercises, demonstrating understanding of print statements, variables, mathematical operations, comparison operators, if statements, and user input.  It solves the problems outlined in each exercise description. Exercise 1 could be improved (see suggestions). Exercise 3 needs a more explicit error explanation.
+- readability: The code is generally well-formatted and easy to understand. Variable names are descriptive, and the code is broken down into logical sections corresponding to the exercises.
+- performance: The code is efficient and performs the required tasks without unnecessary complexity.
+- security: The code doesn't involve any external input or operations that could create security vulnerabilities.
+
