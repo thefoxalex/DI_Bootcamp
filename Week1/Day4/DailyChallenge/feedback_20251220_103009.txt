@@ -1,0 +1,11 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/Day4/DailyChallenge/dailychallenge.py
+suggestions for improvement:
+- For Challenge 1, the program should generate a list and print the entire list at the end, not print each multiple within the loop. Currently, it prints each multiple individually. Consider appending the multiples to a list within the loop and then printing the list after the loop finishes.
+- In Challenge 1, the output does not display the original number and starts the multiplication sequence from one below the specified length.
+- For Challenge 2, the variable `new_word[len(new_word) - 1]` is a bit verbose. You can simplify this by using `new_word[-1]` to access the last element of the string.
+Brief justification:
+- correctness: Challenge 1: The core logic of Challenge 1 is implemented, but the code prints each multiple individually instead of creating and printing a list, and the multiplication is wrong, it should be `input_number * num`, not `input_length * num`.  Challenge 2 correctly removes consecutive duplicate letters as described in the instructions. Because Challenge 1 is not completely correct, the overall score is reduced. The chapter content covers loops, lists, strings, and conditional statements, which are all applied in the solution.
+- readability: The code is generally well-formatted and easy to understand. The variable names are descriptive. Comments are present, aiding in understanding the code's purpose.
+- performance: The code's performance is efficient, particularly for Challenge 2, as it iterates through the string only once. For Challenge 1, creating the list could be negligibly optimized depending on the scale, but it's already quite efficient.
+- security: The code uses `int(input())` which can raise a `ValueError` if the user provides non-integer input. Consider adding error handling (try-except block) to gracefully handle such cases. Otherwise, the code appears secure as it doesn't involve any external resources or complex operations that could be vulnerable to attacks.
+
