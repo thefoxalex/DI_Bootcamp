@@ -46,44 +46,6 @@ print(new_dict)
 # Challenge 2: Affordable Items
 # Goal: Create a program that prints a list of items that can be purchased with a given amount of money.
 
-# Program to list purchasable items within a budget
-
-# # 1. Define the available items and their prices in a dictionary
-# available_items = {
-#     "Laptop": 1200,
-#     "Keyboard": 100,
-#     "Mouse": 50,
-#     "Monitor": 300,
-#     "USB Cable": 10,
-#     "External Hard Drive": 80
-# }
-
-# # Convert the input to a float (handle potential errors with try-except if needed for a robust app)
-# try:
-#     user_budget = float(user_budget_input)
-# except ValueError:
-#     print("Invalid budget amount entered. Please enter a number.")
-#     # Exit the program if input is invalid
-#     exit()
-
-
-# # 3. Initialize a list to store the affordable items
-# purchasable_items = []
-
-# # 4. Iterate through the available items and check against the budget
-# for item, price in available_items.items():
-#     if price <= user_budget:
-#         purchasable_items.append(item)
-
-# # 5. Print the list of items that can be purchased
-# print(f"\nWith a budget of ${user_budget:.2f}, you can purchase the following items:")
-
-# if not purchasable_items:
-#     print("No items found within your budget.")
-# else:
-#     for item in purchasable_items:
-#         print(f"- {item}")
-
 # Key Python Topics:
 
 # Dictionaries
