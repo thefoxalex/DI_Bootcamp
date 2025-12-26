@@ -1,0 +1,12 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/Day6/DailyChallenge/dailychallenge.py
+suggestions for improvement:
+- Challenge 1: The dictionary is not created correctly. The keys should be the letters of the word and the values should be a list of the indices where that letter appears. The current implementation creates a dictionary where the keys are the indices and the values are the letters.
+- Challenge 1: The code needs to iterate through the word and check if the letter already exists as a key in the dictionary. If it does, append the index to the list. If it doesn't, create a new key-value pair.
+- Challenge 2: The logic for determining if an item can be afforded and updating the wallet is not correct. The `elif value > new_wallet:` block prints "Nothing." prematurely. It should check if the entire basket is empty after iterating through all items.
+- Challenge 2: The final print statement for 'Nothing' should only happen if the basket is empty after the loop has completed.
+Brief justification:
+- correctness: Challenge 1: The code fails to produce the dictionary in the format specified by the challenge, which requires letters as keys and a list of indices as values. It incorrectly maps indices to letters. Therefore, it's not solving the problem as described. Challenge 2: The code is partially correct in cleaning the data and iterating through the items. However, it fails to accurately determine affordable items and print "Nothing" only when the basket is truly empty, leading to incorrect output in certain cases. The wallet also needs updating as items are bought.
+- readability: The code includes comments that explain each step, but the formatting and variable names could be improved for better clarity. Also, there are unused comments copied from the original prompt.
+- performance: The code has reasonable performance for the given task. The cleaning of prices could be slightly more efficient but the current implementation is acceptable.
+- security: The code does not have any major security concerns. The input is taken via `input()` and the output is based on calculations. There's no execution of external code or exposure to vulnerabilities.
+
