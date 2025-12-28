@@ -1,0 +1,10 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week2/Day2/ExercisesXP/exercises.py
+suggestions for improvement:
+- In Exercise 4, the input function should not be called. The function should receive a number as an argument, not ask for user input. The output messages in Exercise 4 could be more closely aligned with the example output.
+- In Exercise 6, `make_great()` prints the modified name but doesn't actually modify the list. The instructions state: Inside the function, use a `for` loop to iterate through the list and add "the Great" *before* each magician's name. Call `make_great()` to *modify* the list. Call `show_magicians()` to display the *modified list*.
+Brief justification:
+- correctness: The code correctly addresses the first 3 exercises. Exercise 4 has an error where it requires input instead of taking an argument. The code for Exercise 5, 6 and 7 are correct, covering functions with parameters, lists, loops, and conditional statements. Exercise 6 needs adjustment so the list is modified, not printed in place.
+- readability: The code is well-formatted and easy to understand. Comments are descriptive and help to explain each step.
+- performance: The code demonstrates efficient use of functions and loops where appropriate. No performance bottlenecks are apparent.
+- security: The code doesn't involve any external inputs or sensitive operations and poses no apparent security risks.
+
