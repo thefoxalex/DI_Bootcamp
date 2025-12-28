@@ -1,0 +1,10 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week2/Day3/Exercises/mini_project.py
+suggestions for improvement:
+- Consider adding input validation to ensure the player enters a valid number.
+- Add the option to play again.
+Brief justification:
+- correctness: The code accurately implements the Tic Tac Toe game as described in the prompt. It covers all the required functionalities: displaying the board, taking player input, checking for a win, and handling a tie game. The `game()` function effectively orchestrates the game flow, switching players and checking for win conditions after a certain number of moves. The `check_win()` and `display_board()` functions function as described in the prompt's 'Hint' section.
+- readability: The code is generally readable, with clear function names and comments. Variable names are descriptive. Using a dictionary for the board representation enhances readability and makes accessing board positions straightforward.  The display function is easy to understand.
+- performance: The code's performance is adequate for a simple game like Tic Tac Toe. The use of a dictionary for the game board provides efficient access to board positions. The win-checking logic is straightforward and doesn't introduce any significant performance bottlenecks.
+- security: The code doesn't handle user input sanitization which could lead to unexpected behavior if the user input were malicious. No major security concerns are present in this simple game implementation.
+
