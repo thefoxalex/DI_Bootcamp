@@ -88,23 +88,32 @@ for age in family.values():
 # Create and manipulate a dictionary that contains information about the Zara brand.
 
 brand = {
-    "name": "Zara"
-    creation_date: 1975
-    creator_name: "Amancio Ortega Gaona"
-    type_of_clothes: "men", "women", "children", "home"
-    international_competitors: "Gap", "H&M", "Benetton"
-    number_stores: 7000
-    major_color: 
-        France: blue, 
-        Spain: red, 
-        US: pink, green
+    'name': 'Zara',
+    'creation_date': '1975',
+    'creator_name': 'Amancio Ortega Gaona',
+    'number_stores': 7000,
+    'type_of_ clothes': ['men', 'women', 'children', 'home'],
+    'international_competitors': ['Gap', 'H&M', 'Benetton'],
+    'major_color': {
+    'France': 'blue',
+    'Spain': 'red',
+    'US': ['pink', 'green']
+    }
 }
+brand['number_stores'] = 2
+
+
+brand['country_creation'] = 'Spain'
+brand['international_competitors'].append('Desigual')
+brand.pop('creation_date')
+print(brand['international_competitors'][-1])
+print(brand['major_color']['US'])
+number_keys = len(brand)
+all_keys = brand.keys()
+print(number_keys)
+print(all_keys)
 
 # Brand Information:
-
-
-
-
 # Create a dictionary called brand with the provided data.
 # Modify and access the dictionary as follows:
 # Change the value of number_stores to 2.
@@ -122,3 +131,47 @@ brand = {
 
 # Create another dictionary called more_on_zara with creation_date and number_stores. Merge this dictionary with the original brand dictionary and print the result.
 
+# Exercise 4: Disney Characters
+# Key Python Topics:
+
+# Looping with indexes
+# Dictionary creation
+# Sorting
+
+
+# Instructions
+# You are given a list of Disney characters. Create three dictionaries based on different patterns as shown below:
+
+
+
+# Character List:
+
+users = ["Mickey", "Minnie", "Donald", "Ariel", "Pluto"]
+
+disney1 = {key: i for i, key in enumerate(users)}
+print(disney1)
+
+disney2 = {index: value for index, value in enumerate(users)}
+print(disney2)
+
+disney3 = users.sort()
+disney3 = {key: i for i, key in enumerate(users)}
+print(disney3)
+
+
+
+# Expected Results:
+
+# 1. Create a dictionary that maps characters to their indices:
+
+# {"Mickey": 0, "Minnie": 1, "Donald": 2, "Ariel": 3, "Pluto": 4}
+
+
+# 2. Create a dictionary that maps indices to characters:
+
+# {0: "Mickey", 1: "Minnie", 2: "Donald", 3: "Ariel", 4: "Pluto"}
+
+
+# 3. Create a dictionary where characters are sorted alphabetically and mapped to their indices:
+
+# {"Ariel": 0, "Donald": 1, "Mickey": 2, "Minnie": 3, "Pluto": 4}
