@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    z-index: 999;
+}
+
+.link {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-right: 4rem;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color:rgb(255, 155, 189);
+}
+
+a:active {
+  color: rgb(237, 88, 112);
+}
+
+#logo {
+    font-size: 3rem;
+    float: left;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(cathero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    color: black;
+}
+
+.hero_text h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+.hero_text h2 {
+    font-size: 2rem;
+}
+
+#catvideo {
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    padding: 1rem;
+}

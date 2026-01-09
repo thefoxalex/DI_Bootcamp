@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: block;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.link {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem;
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-right: 4rem;
+}
+
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color:rgb(255, 155, 189);
+}
+
+a:active {
+  color: rgb(237, 88, 112);
+}
+
+#logo {
+    font-size: 3rem;
+    float: left;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    background-color: #ffe7df;
+    background-image: linear-gradient(to top, #ffbfc1, #ffe7df);
+}
+
+.gallery {
+    width: 80%;
+    margin: 0 10%;
+    padding: 1rem 1rem 4rem 1rem;
+}
+
+.product_container {
+    position: relative;
+    display: block;
+    float: left;
+    width: 360px;
+    height: 720px;
+    margin: 1rem;
+    border: 1px solid rgba(169, 169, 169, 0.334); 
+    box-shadow: 2px 1px rgba(138, 138, 138, 0.236);
+}
+
+.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8, .product9, .product10, .product11, .product12, .product13, .product14, .product15 {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 520px;
+    padding: 1rem;
+}
+
+.product1 {
+    background-image: url(product1.jpg);
+}
+
+.product2 {
+    background-image: url(product2.jpg);
+}
+
+
+.product3 {
+    background-image: url(product3.jpg);
+}
+
+.product4 {
+    background-image: url(product4.jpg);
+}
+
+.product5 {
+    background-image: url(product5.jpg);
+}
+
+.product6 {
+    background-image: url(product6.jpg);
+}
+
+.product7 {
+    background-image: url(product7.jpg);
+}
+
+.product8 {
+    background-image: url(product8.jpg);
+}
+
+.product9 {
+    background-image: url(product9.jpg);
+}
+
+.product10 {
+    background-image: url(product10.jpg);
+}
+
+.product11 {
+    background-image: url(product11.jpg);
+}
+
+
+.product12 {
+    background-image: url(product12.jpg);
+}
+
+.product13 {
+    background-image: url(product13.jpg);
+}
+
+.product14 {
+    background-image: url(product14.jpg);
+}
+
+.product15 {
+    background-image: url(product15.jpg);
+}
+
+.product_info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.product_info h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.product_info h3, .product_info h4 {
+    color: black;
+    padding-bottom: 0.5rem;
+}
+
+.product_info h4 {
+    font-size: 1.6rem;
+    color: rgb(50, 187, 229);
+}
+
+
+.product_info li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+.product_info button {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    color: rgb(120, 120, 120);
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 7px; 
+    padding: 0.5rem;
+}
+
+.green_circle, .red_circle {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: inline-block; 
+    color: white;
+    padding: 1rem;
+    margin: 1rem;  
+    text-align: center; 
+}
+
+.green_circle h5, .red_circle h5 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green_circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(45, 214, 107);
+}
+
+
+.red_circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(236, 51, 82);
+}
+
+.price {
+    position: relative;
+    text-align: center;
+    width: 100%; 
+    height: 4rem; 
+}
+
+#sale {
+    font-size: 1.25rem;
+    color: rgb(116, 116, 116);
+    text-decoration: line-through;
+}
+
+.footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    padding: 1rem;
+}
