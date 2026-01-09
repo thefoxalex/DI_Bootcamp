@@ -205,6 +205,12 @@ a:active {
     padding: 0.5rem;
 }
 
+.product_info button:hover {
+    color: white;
+    background-color: rgb(243, 153, 182);
+    border: 1px solid white;
+}
+
 .green_circle, .red_circle {
     height: 4rem;
     width: 4rem;
