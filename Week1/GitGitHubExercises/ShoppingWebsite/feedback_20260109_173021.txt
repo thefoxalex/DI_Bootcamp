@@ -1,0 +1,30 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/index.html
+suggestions for improvement:
+- The provided HTML structure is a starting point, and includes the navbar and footer structure but has more elements that weren't explicitly asked for.
+- The navbar should include a link to the `products.html` file on the right and an icon on the left as the prompt asks. Currently the icon is on the right and the link is on the left.
+- The footer should display the current year and name of the developer. It displays the correct info but the year is hardcoded and not dynamic.
+Correctness: 50%
+-----
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/products.css
+suggestions for improvement:
+- Missing HTML structure (e.g., products.html and linking to CSS).
+- No signup/login bonus implementation.
+- No responsive design implementation (media queries).
+- The CSS is well-structured but could benefit from more semantic class names.
+- Consider using a CSS preprocessor for better organization and maintainability.
+- Refactor repetitive product styling into a more reusable format (e.g., using mixins in a CSS preprocessor or more general class names).
+Correctness: 75%
+-----
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/products.html
+suggestions for improvement:
+- The prompt states to create an `index.html` file and a `style.css` file, and a `products.html` file and a `products.css` file. You have created a `products.html` file and linked it to `products.css`, but you have also included the navbar in this html file. The navbar should be in the `index.html` file as well.
+- The navbar could be improved by positioning the link to the products page on the right side.
+- Ensure that the CSS styles are properly separated into `style.css` for the `index.html` file and `products.css` for the `products.html` file to improve maintainability and organization.
+Correctness: 70%
+-----
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/style.css
+suggestions for improvement:
+- The provided CSS code, while syntactically correct, lacks the corresponding HTML structure outlined in the exercise, making it impossible to assess its complete correctness in addressing the instructions. Specifically, the exercise requires creating `index.html` and `products.html` files, along with a `style.css` and `products.css` to style the navbar, footer, and product display.  The code does not show the product page creation or the responsive design using media queries, or the signup/login bonus features.
+- To improve the submission, provide the HTML structure alongside the CSS, ensuring it aligns with the exercise requirements. This includes creating the navbar with the specified icon and links, the footer with the current year and developer name, and the product display in `products.html`.
+Correctness: 0%
+-----

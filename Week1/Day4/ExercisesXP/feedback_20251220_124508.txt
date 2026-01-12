@@ -1,0 +1,9 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/Day4/ExercisesXP/exercises.py
+suggestions for improvement:
+- In Exercise 8, the total should be printed one time at the end and not in each iteration.
+Brief justification:
+- correctness: The code correctly implements all the exercises. Exercise 1 uses sets, adds, removes, and concatenates them. Exercise 3 correctly manipulates a list. Exercise 4 creates a list of floats, although the approach could be more direct (using a simple loop is more clear). Exercise 5 demonstrates for loops and range. Exercise 6 uses a while loop with input validation. Exercise 7 takes user input and checks list membership. Exercise 8 takes pizza toppings and calculates the price. Exercise 9 calculates cinema ticket prices based on age. All exercises directly correspond to the chapter content.
+- readability: The code is generally readable with clear variable names and comments, though some sections (like the float generation) could be simplified for better clarity.
+- performance: The code is generally efficient for the given tasks. List and set operations are used appropriately.
+- security: The code is reasonably secure, with basic input validation in Exercise 6 to prevent simple errors. There aren't any obvious vulnerabilities.
+
