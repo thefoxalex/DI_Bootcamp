@@ -1,0 +1,29 @@
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/index.html
+suggestions for improvement:
+- Consider using more descriptive class names instead of generic ones like 'pages_link'.
+- The year in the footer is hardcoded. You could use JavaScript to dynamically display the current year.
+Correctness: 100%
+-----
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/products.css
+suggestions for improvement:
+- The code is only showing the CSS for the product page, whereas the exercise asks for a navbar and footer as well. This needs to be included to fulfill the requirements.
+- The CSS for the products could be more efficient.  Consider using a more general class for the product images instead of creating separate classes for each product (product1, product2, etc.).
+- The use of absolute positioning in several places might make the layout less flexible. Consider using relative positioning or other layout techniques in conjunction with margin/padding to achieve desired spacing.
+Correctness: 60%
+-----
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/products.html
+suggestions for improvement:
+- The code includes the product display, but it's missing the navbar and footer code that should be present in all HTML files, according to the instructions.
+- There is no styling for the products, which means it does not match the image from the exercise. Even though the exercise mentions basic CSS, styling is required to match the image.
+- The HTML structure for the products is functional but could benefit from more semantic HTML5 tags for improved readability and SEO (e.g., using `<figure>` and `<figcaption>` for product images and descriptions).
+- Consider using classes more effectively for styling consistency, rather than relying heavily on IDs.
+Correctness: 70%
+-----
+URL: https://github.com/thefoxalex/DI_Bootcamp/blob/main/Week1/GitGitHubExercises/ShoppingWebsite/style.css
+suggestions for improvement:
+- The code provides CSS styling, which is partially relevant to the shopping website project. However, it's missing the HTML structure and specific product display implementation requested in Parts I and II. The bonus parts (signup/login and responsive design with pseudo-elements) are not addressed at all.
+- The CSS is generally well-structured but lacks specific styles for the 'products.html' file and elements within it, such as product containers, images, and descriptions. Add styling to specifically target these elements.
+- Consider using more specific class names to avoid naming conflicts and improve maintainability. For example, instead of just `.hero`, use `.shopping-hero` or `.product-hero` to distinguish it from other potential hero sections on different pages.
+- While the navigation styles are a start, ensure the link to `products.html` functions correctly and adjust the positioning as needed. The instructions mention using `display`, `position`, `margin`, and `padding` properties.
+Correctness: 60%
+-----
