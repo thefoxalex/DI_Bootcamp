@@ -1,0 +1,36 @@
+nav {
+    background-color: #222222;
+}
+
+.nav-item:hover {
+    background-color: #080808;
+}
+
+.nav-item:active {
+    background-color: #080808;
+}
+
+.nav-item {
+    padding: 0.5rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.blue {
+    background-color: #337AB7;
+}
+
+.col {
+    text-align: left;
+    padding: 2rem;
+}
+
+.btn-details {
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.notification {
+    border-radius: 50px;
+}
