@@ -1,8 +1,6 @@
 # Challenge 1: Letter Index Dictionary
 # Goal: Create a dictionary that stores the indices (number of the position) of each letter in a word provided by the user(input()).
 
-
-
 # Key Python Topics:
 
 # User input (input())
@@ -12,10 +10,11 @@
 # String manipulation
 # Lists
 
-user_word = input("Enter a word: ")
+# user_word = input("Enter a word: ")
 
-new_dict = dict(enumerate(user_word)) 
-print(new_dict)
+# new_dict = dict(enumerate(user_word)) 
+
+# print(new_dict)
 
 
 
@@ -42,6 +41,20 @@ print(new_dict)
 # For the input “froggy”, the output should be: {"f": [0], "r": [1], "o": [2], "g": [3, 4], "y": [5]}.
 # For the input “grapes”, the output should be: {"g": [0], "r": [1], "a": [2], "p": [3], "e": [4], "s": [5]}.
 
+
+def create_index_dictionary(word):
+    index_dict = {}
+    for index, letter in enumerate(word):
+        if letter in index_dict:
+            index_dict[letter].append(index)
+        else:
+            index_dict[letter] = [index]
+    return index_dict
+
+user_word = input("Enter a word: ")
+result_dict = create_index_dictionary(user_word) 
+print(f"The index dictionary for '{user_word}' is:")
+print(result_dict)
 
 # Challenge 2: Affordable Items
 # Goal: Create a program that prints a list of items that can be purchased with a given amount of money.
